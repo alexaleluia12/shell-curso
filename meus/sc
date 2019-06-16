@@ -1,0 +1,16 @@
+#! /bin/bash
+
+# autor Alex Aleluia
+# tarefa:
+# copia o arquivo e1 para o arquivo eN
+# sendo que N varia de 2 a 9
+# e exclui os arquivos terminados em .cpp e .h
+
+for((i=2; i<9; i++))
+do
+  mkdir "e$i"
+  cp -r e1/* "e$i"
+  cd "e$i"
+  rm *.cpp *.h
+  cd ..
+done

@@ -1,0 +1,9 @@
+#!/bin/bash
+# for(i=0;i<10;i++)
+# agora sim
+#
+
+for (( i=0; i<=5; i++ ))
+do
+  echo "Welcom $i times"
+done

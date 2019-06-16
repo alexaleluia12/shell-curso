@@ -1,0 +1,5 @@
+#!/bin/bash
+
+user_sum=`expr $1 + $2`
+
+echo "sum = $user_sum"

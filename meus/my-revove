@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# remove arquivos de e2 ate e8
+
+for((i=2; i<9; i++))
+do
+  rm -r "e$i"
+done
